@@ -57,5 +57,3 @@ As mentioned at the top of the README, it runs every 60 seconds by default - you
 ## License
 
 MIT
-
-Please include attribution to my original repo if you fork, modify or utilize this repo in any way. Thank you!
