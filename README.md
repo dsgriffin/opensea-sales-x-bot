@@ -2,7 +2,7 @@
 
 A simple bot that monitors Opensea sales for a given collection & then posts them to X.
 
-## ⚠️ Want to include sales from other markets (X2Y2, LooksRare etc.) too? ⚠️ 
+## ⚠️ Want to include sales from other markets (X2Y2, LooksRare etc.)? ⚠️ 
 
 To track sales across multiple marketplaces (X2Y2, LooksRare etc.), use my new bot [NFT Sales X Bot](https://github.com/dsgriffin/nft-sales-x-bot) instead.
 
@@ -53,6 +53,10 @@ There is `tweetWithImage` function that you can use instead of the default `twee
 In `app.js`, on line 24 you can see there's a commented out conditional if you'd like to only tweet out sales above a certain amount of Eth.
 
 As mentioned at the top of the README, it runs every 60 seconds by default - you can change this to run less often if you'd like to keep it on a free Heroku instance.
+
+## Contributing
+
+If you've found a bug or have an idea, feel free to open an Issue. If you've got a fix or feature ready, open a PR. Thanks!
 
 ## License
 
