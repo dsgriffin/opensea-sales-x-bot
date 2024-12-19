@@ -1,18 +1,12 @@
-# OpenSea Sales X Bot 🤖
+# OpenSea Sales X Bot 🌊
 
 A simple bot that monitors Opensea sales for a given collection & then posts them to X.
 
-## Want to include sales from other markets (X2Y2, LooksRare etc.) too? ⚠️ 
+## ⚠️ Want to include sales from other markets (X2Y2, LooksRare etc.) too? ⚠️ 
 
-To track sales across multiple marketplaces (X2Y2, LooksRare etc.), use my new repo [NFT Sales X Bot](https://github.com/dsgriffin/nft-sales-x-bot) instead.
+To track sales across multiple marketplaces (X2Y2, LooksRare etc.), use my new bot [NFT Sales X Bot](https://github.com/dsgriffin/nft-sales-x-bot) instead.
 
-## Donations 💵
-
-Eth Address: 0x51C96e813e377E1a18B6867F932aE1B7b1600372
-
-Thank you 🙏
-
-## Requirements 📝
+## Requirements
 
 - [X Developer Account](https://developer.x.com/)
 
@@ -20,7 +14,7 @@ Thank you 🙏
 
 - A Heroku Account; a free account should be ok if you tweak the project to run less often than every minute (by default it is every minute), otherwise a $7 a month dyno instance is more than enough
 
-## Setup 🔧
+## Setup
 
 - Clone/Fork/Copy this project to your local public/private git repo
 
@@ -50,7 +44,7 @@ heroku ps:scale web=0
 heroku ps:scale worker=1
 ```
 
-## Modification 🛠
+## Modification
 
 By default I am just include the name, price in eth & usd, a hashtag or two and a link to the NFT on OpenSea. Check out the [OpenSea Events API](https://docs.opensea.io/reference#retrieving-asset-events) if you want to include additional info (such as seller/buyer addresses etc.).
 
@@ -60,8 +54,8 @@ In `app.js`, on line 24 you can see there's a commented out conditional if you'd
 
 As mentioned at the top of the README, it runs every 60 seconds by default - you can change this to run less often if you'd like to keep it on a free Heroku instance.
 
-## License 📃
+## License
 
-This code is licensed under the [ISC License](https://choosealicense.com/licenses/isc/).
+MIT
 
-Please include proper attribution to my original repo if you fork, modify or utilize this repo in any way. Thank you!
+Please include attribution to my original repo if you fork, modify or utilize this repo in any way. Thank you!
